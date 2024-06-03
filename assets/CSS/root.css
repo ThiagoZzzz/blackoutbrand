@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "BDOGrotesk";
+    src: url(/assets/Fonts/BDOGrotesk-VF.woff2);
+}
+@font-face {
+    font-family: "NeueBlack";
+    src: url(/assets/Fonts/TheNeue-Black.woff2);
+}
+@font-face {
+    font-family: "RalewayBlack";
+    src: url(/assets/Fonts/Raleway-Black.woff2);
+}
+@font-face {
+    font-family: "RalewayLight";
+    src: url(/assets/Fonts/Raleway-Light.woff2);
+}
+@font-face {
+    font-family: "RalewayMedium";
+    src: url(/assets/Fonts/Raleway-Medium.woff2);
+}
+:root{
+    --wood_smoke: rgb(6, 7, 8); 
+    --cod_gray: rgb(16, 15, 15);
+    --blue_charcoal: rgb(1,12,14);
+    --ebony_clay: rgb(43,49,68);
+    --medium_gray: rgb(97, 97, 97);
+
+    --aluminum: rgb(165,169,178);
+    --pickled_bluewood: rgb(37,52,74);
+    --chatelle: rgb(204,192,209);
+    --nebula: rgb(224,232,229);
+    --mischka: rgb(226, 223, 230);
+    --botticelli: rgb(215, 233, 237);
+    --skeptic: rgb(213,235,223);  
+}
+body{
+    background-color: var(--cod_gray);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

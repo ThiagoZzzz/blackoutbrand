@@ -5,7 +5,7 @@ nav{
     align-items: center;
     background-color: var(--wood_smoke);
     padding: .5rem;
-    box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.2);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(14, 14, 29, 0.1) 0px 24px 80px;
 }
 div.logo > p{
     color: white;
@@ -14,22 +14,18 @@ div.logo > p{
     display: block;
     margin: 0;
 }
-
-a{
-    font-family: "BDOGrotesk";
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--botticelli);
-}
-a:hover{
-    color: rgb(102, 97, 97);
-    transition: all;
-    transition-duration: 1s;
-}
 ul.navbar{
     display: flex;
-    gap: 2rem;
+    gap: 3.5rem;
     padding: 0;
 
     list-style: none;
 } 
+.navbar img{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: transform 0.5s ease; 
+}
+.navbar img:hover{
+    transform: scale(1.4);
+}

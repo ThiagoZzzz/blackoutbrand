@@ -39,3 +39,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    font-family: "BDOGrotesk";
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--botticelli);
+}

@@ -1,0 +1,27 @@
+footer{
+    background: rgb(16,15,15);
+    background: linear-gradient(180deg, rgba(16,15,15,1) 7%, rgba(47,47,47,1) 100%);
+}
+footer  ul{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding: 0;
+    margin-top: 5rem;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    margin: 0;
+    color: white;
+    font-family: "BDOGrotesk";
+    font-weight: 200;
+    padding: 1rem;
+}
+footer li{
+    list-style: none;
+    padding: 0;
+}

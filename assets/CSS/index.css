@@ -1,0 +1,71 @@
+@import url(/assets/CSS/root.css);
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 3rem;
+    margin: 3rem;
+
+    max-width: 1200px;
+    height: 70vh;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+}
+.btns > div{
+    background-color: rgb(79, 79, 80);
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: 0.7s ease;
+}
+.btns > div:hover{
+    background-color: var(--aluminum);
+}
+.btns a{
+    font-weight: 600;
+    transition: 0.7s ease;
+}
+.btns a:hover{
+    color: var(--blue_charcoal);
+}
+img {
+    width: 30%;
+}
+h3{
+    font-size: 2rem;
+    color: white;
+    text-align: start;
+    font-family: "RalewayMedium";
+}
+p{
+    font-size: 1.8rem;
+    color: white;
+    text-align: justify;
+    font-family: "RalewayLight";
+}
+.container_desc > p{
+    text-align: center;
+    max-width: 800px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+.hero_text > p{
+    letter-spacing: 4px;
+}

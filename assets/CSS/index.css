@@ -49,15 +49,11 @@ img {
 }
 h3{
     font-size: 2rem;
-    color: white;
     text-align: start;
     font-family: "RalewayMedium";
 }
 p{
-    font-size: 1.8rem;
     color: white;
-    text-align: justify;
-    font-family: "RalewayLight";
 }
 .container_desc > p{
     text-align: center;

@@ -25,7 +25,7 @@
     --ebony_clay: rgb(43,49,68);
     --medium_gray: rgb(97, 97, 97);
 
-    --aluminum: rgb(165,169,178);
+    --aluminum: rgb(165, 169, 178);
     --pickled_bluewood: rgb(37,52,74);
     --chatelle: rgb(204,192,209);
     --nebula: rgb(224,232,229);
@@ -44,4 +44,27 @@ a{
     font-weight: 300;
     text-decoration: none;
     color: var(--botticelli);
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: "RalewayLight";
+}
+h3{
+    color: var(--botticelli);
+    font-size: 2rem;
+    text-align: start;
+    font-family: "RalewayMedium";
+}
+h4{
+    color: rgb(187, 190, 199);
+    font-size: 1.7rem;
+    text-align: start;
+    font-family: "RalewayMedium";
+}
+p{
+    font-size: 1.8rem;
+    text-align: justify;
+    font-family: "RalewayLight";
 }

@@ -1,0 +1,52 @@
+@import url(/assets/CSS/root.css);
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    max-width: 1200px;
+    height: 70vh;
+    margin: 0 auto;
+}
+.info_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info_container > h4, h3, li{
+    margin: 1rem;
+}
+ul{
+    padding:0;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: "BDOGrotesk";
+}
+li > img{
+    padding: 10px;
+    width: 3vh;
+    background-color: var(--ebony_clay);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.social_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.social_container > a > img{
+    width: 3vh;
+}
+main > img {
+    width: 20%;
+    padding: 2rem;
+    background-color: var(--ebony_clay);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
